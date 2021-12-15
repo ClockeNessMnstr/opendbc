@@ -1,4 +1,4 @@
-CM_ "IMPORT _subaru_preglobal_2015.dbc";
+CM_ "IMPORT _subaru_preglobal_2015.dbc"
 
 BO_ 358 ES_DashStatus: 8 XXX
  SG_ Not_Ready_Startup : 0|3@1+ (1,0) [0|7] "" XXX
@@ -9,7 +9,7 @@ BO_ 358 ES_DashStatus: 8 XXX
  SG_ Signal1 : 18|1@1+ (1,0) [0|1] "" XXX
  SG_ WHEELS_MOVING_2015 : 19|1@1+ (1,0) [0|1] "" XXX
  SG_ Driver_Input : 20|1@1+ (1,0) [0|1] "" XXX
- SG_ Cruise_Distance : 21|3@1+ (1,0) [0|7] "" XXX
+ SG_ Distance_Bars : 21|3@1+ (1,0) [0|7] "" XXX
  SG_ Cruise_Set_Speed : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Cruise_Fault : 32|1@1+ (1,0) [0|1] "" XXX
  SG_ Cruise_On_2 : 34|1@1+ (1,0) [0|1] "" XXX
@@ -27,4 +27,4 @@ BO_ 881 Steering_Torque: 8 XXX
 
 CM_ SG_ 358 Disengage_Alert "seatbelt and steep hill disengage";
 CM_ SG_ 358 Cruise_Fault "No engagement until restart";
-CM_ SG_ 358 Car_Follow "lead car detected";
+CM_ SG_ 358 Car_Follow "front car detected";

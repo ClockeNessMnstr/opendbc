@@ -50,9 +50,10 @@ BO_ 208 G_Sensor: 8 XXX
  SG_ Lateral : 16|16@1- (-0.0035,1) [-255|255] "" XXX
  SG_ Longitudinal : 48|16@1- (-0.00035,0) [-255|255] "" XXX
 
-BO_ 209 Brake_Pedal: 8 XXX
+BO_ 209 Brake_Pedal: 4 XXX
  SG_ Speed : 0|16@1+ (0.05625,0) [0|255] "KPH" XXX
  SG_ Brake_Pedal : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ Signal1 : 24|8@1+ (1,0) [0|1] "" XXX
 
 BO_ 210 Brake_2: 8 XXX
  SG_ Brake_Light : 35|1@1+ (1,0) [0|1] "" XXX
@@ -167,10 +168,10 @@ BO_ 356 ES_LKAS: 8 XXX
  SG_ LKAS_Active : 24|1@1+ (1,0) [0|1] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|255] "" XXX
 
-BO_ 359 ES_LDW: 8 XXX
+BO_ 359 ES_LKAS_State: 8 XXX
  SG_ All_depart_2015 : 0|1@1+ (1,0) [0|1] "" XXX
- SG_ Right_Line_2017 : 24|1@1+ (1,0) [0|1] "" XXX
- SG_ Left_Line_2017 : 25|1@1+ (1,0) [0|1] "" XXX
+ SG_ LKAS_Right_Line_Visible : 24|1@1+ (1,0) [0|1] "" XXX
+ SG_ LKAS_Left_Line_Visible : 25|1@1+ (1,0) [0|1] "" XXX
  SG_ Sig1All_Depart : 28|1@1+ (1,0) [0|1] "" XXX
  SG_ Sig2All_Depart : 31|1@1+ (1,0) [0|1] "" XXX
  SG_ LKAS_Inactive_2017 : 36|1@1+ (1,0) [0|1] "" XXX
